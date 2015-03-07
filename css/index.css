@@ -1,0 +1,148 @@
+html,
+body {
+  height: 100%;
+  text-align: center; 
+}
+
+.heading {
+  text-align: center; 
+}
+
+.skill-git::before {
+  font-family: FontAwesome;
+  text-align: center;
+  margin-right: 5px;
+  font-size: 81px;
+  content: "\f09b";
+}
+
+.skill-html5::before {
+  font-family: FontAwesome;
+  text-align: center;
+  margin-right: 5px;
+  font-size: 81px;
+  content: "\f1dc";
+}
+
+.skill-css3::before {
+  font-family: FontAwesome;
+  text-align: center;
+  margin-right: 5px;
+  font-size: 81px;
+  content: "\f02b";
+}
+
+.skill-javascript::before {
+  font-family: FontAwesome;
+  text-align: center;
+  margin-right: 5px;
+  font-size: 81px;
+  content: "\f02b";
+}
+
+.skill-boostrap::before {
+  font-family: FontAwesome;
+  text-align: center;
+  margin-right: 5px;
+  font-size: 81px;
+  content: "\f032";
+}
+
+.experience {
+  background-color: #eee;
+}
+
+.time {
+  text-align: right;
+}
+
+.office,
+.education {
+  border-left: dotted;
+  text-align: left;
+}
+
+.education-major::before{
+  font-family: FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  color: black;
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 15px;
+  content: "\f19d";
+}
+
+.education-honor::before {
+  font-family: FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  color: black;
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 15px;
+  content: "\f091";
+}
+
+.office-content::before {
+  font-family: FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  color: black;
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 15px;
+  content: "\f1ad";
+}
+
+.contact-address {
+  text-align: left;
+  margin-left: 20%;
+}
+.contact-address-item {
+  margin-left: 10px;
+}
+
+.phone::before {
+  font-family: FontAwesome;
+  text-align: center;
+  padding-right: 5px;
+  font-size: 16px;
+  content: "\f095";
+}
+
+.mail::before {
+  font-family: FontAwesome;
+  text-align: center;
+  margin-right: 5px;
+  font-size: 16px;
+  content: "\f0e0";
+}
+
+.blog::before {
+  font-family: FontAwesome;
+  text-align: center;
+  margin-right: 5px;
+  font-size: 16px;
+  content: "\f09e";
+}
+
+.qq::before {
+  font-family: FontAwesome;
+  text-align: center;
+  margin-right: 5px;
+  font-size: 16px;
+  content: "\f1d6";
+}
