@@ -2,10 +2,25 @@ html,
 body {
   height: 100%;
   text-align: center; 
+  font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
+  font-size: 1.1em;
+}
+
+p {
+  font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
+}
+
+strong {
+  font-weight: bold;
+  color: #008080;
 }
 
 .heading {
   text-align: center; 
+}
+
+.skillsArea {
+  font-family: Arial Black, Gadget, sans-serif;
 }
 
 .skill-git::before {
@@ -62,6 +77,10 @@ body {
   text-align: left;
 }
 
+.education-title {
+  font-size: 1.2em;
+  font-family: Arial Black, Gadget, sans-serif;
+}
 .education-major::before{
   font-family: FontAwesome;
   font-size: inherit;
@@ -146,3 +165,4 @@ body {
   font-size: 16px;
   content: "\f1d6";
 }
+
