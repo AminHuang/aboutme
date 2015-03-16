@@ -1,6 +1,7 @@
 body {
   font-size: 1.6em;
   /*font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: Arial, "Microsoft YaHei", "微软雅黑", sans-serif;
 }
 
 header {
@@ -15,7 +16,13 @@ strong {
 
 dt {
   font-size: 20px;
+
 }
+
+dd {
+  /*visibility:hidden;*/
+}
+
 
 .contact {
   float: left;
@@ -31,6 +38,7 @@ dt {
     font-size: 3.75em;
     font-family: Arial Black, Gadget, sans-serif;
     font-weight: bolder;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.2);
 }
 
 .img-wechat {
@@ -40,6 +48,8 @@ dt {
 
 .contact-address {
   margin-top: 5px;
+  font-weight: bold;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.15);
 }
 
 .contact-address-item {
@@ -142,6 +152,7 @@ dt {
   margin-left: -40px;
   margin-top: -5px;
   padding: 5px 0;
+  text-shadow: 2px 2px 10px rgba(255,235,0,0.7);
 }
 
 .article-title::before {
