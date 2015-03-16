@@ -183,9 +183,9 @@ strong {
 }
 
 .books:hover {
-  -moz-transform: scale(2,2);
-  -webkit-transform: scale(2,2);
-  -o-transform: scale(2,2);
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -o-transform: scale(1.5);
 
   box-shadow: 0 0 10px gray;
     
