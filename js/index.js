@@ -1,25 +1,14 @@
 $(document).ready(function() {
-    setMyCanvas ();
-
+    $(".books-detail").hide();
+    $(".caption").mouseover(function(){
+        var timer;
+        var $caption = $(this);
+        timer = setTimeout(function(){
+            $caption.children(".books-detail").show(500);
+        }, 500);
+        
+    });
+    // $(".caption").mouseout(function(){
+    //     $(this).children(".books-detail").hide(500);
+    // });
 });
-
-// 不能自适应屏幕
-function setMyCanvas () {
-    var red = [0, 100, 63];
-    var orange = [40, 100, 60];
-    var green = [75, 100, 40];
-    var blue = [196, 77, 55];
-    var purple = [280, 50, 60];
-
-    var myName = "AminHuang";
-    var letterColors=[red,orange,green];
-    if(10 < 3){
-        bubbleShape = "circle";
-    } else {
-        bubble = "square";
-    }
-
-
-    drawName(myName, letterColors);
-    bounceBubbles();
-}

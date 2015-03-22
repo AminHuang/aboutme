@@ -166,7 +166,22 @@ strong {
   content: "\f1d6";
 }
 
+.wrap-book {
+  height: 450px;
+}
+
 .books {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.43;
+  background-color: #fff;
+  border-radius: 4px;
+  transition: border .2s ease-in-out;
+  -webkit-transition: border .2s ease-in-out;
+}
+
+.books-img {
   -webkit-transition: -webkit-transform 1s, opacity 1s background 1s, width 1s, height 1s, font-size 1s;
 
     -o-transition-property: width, height, -o-transform, background, font-size, opacity, color;
@@ -182,7 +197,7 @@ strong {
     border-radius:  5px;
 }
 
-.books:hover {
+.books-img:hover {
   -moz-transform: scale(1.5);
   -webkit-transform: scale(1.5);
   -o-transform: scale(1.5);
@@ -190,3 +205,20 @@ strong {
   box-shadow: 0 0 10px gray;
     
 }
+
+.caption {
+  word-wrap:break-word;
+  
+
+}
+
+.books-detail {
+  height: 150px;
+  text-align: left;
+  text-indent: 1em;
+  font-size: 15px;
+  /*overflow: scroll;*/
+  /*visibility: hidden;*/
+  /*display: none;*/
+}
+

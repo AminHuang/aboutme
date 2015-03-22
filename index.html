@@ -10,6 +10,9 @@
 
     <title>黄嘉敏</title>
 
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/index.js"></script>
+
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -52,7 +55,7 @@
       <!-- </div> -->
     </header>
 
-    <main class="">
+    <main>
       <!-- skill -->
       <section id="skill" class="skill">
         <div class="container">
@@ -147,38 +150,44 @@
       <section id="book" class="book">
         <div class="container ">
           <div class="heading">
-            <h2>看过的书</h2>
+            <h2>看过及在看的书</h2>
             <p></p>
           </div>
           <div class="row">
-            <div class="col-sm-6 col-md-3">
-              <div class="thumbnail">
-                <img class="books" src="images/jQuery2.jpg" alt="通用的占位符缩略图">
+            <div class="col-sm-6 col-md-3 wrap-book">
+              <div class="books">
+                <img class="books-img" src="images/jQuery2.jpg" alt="通用的占位符缩略图">
               </div>
               <div class="caption">
-                <h3>锋利的jQuery</h3>
-                <!-- <p>一些示例文本。一些示例文本。</p>
-                <p>
+                <h3 class="books-name">锋利的jQuery(第二版)</h3>
+                <p class="books-detail">《锋利的jQuery(第2版)》循序渐进地对jQuery的各种函数和方法调用进行了介绍，包括jQuery的选择器、DOM操作、事件和动画、AJAX应用、插件、jQuery Mobile、jQuery各个版本变化、jQuery性能优化和技巧等知识点。</p>
+                <!-- <p>
                   <a href="#" class="btn btn-default" role="button">
                    按钮
                   </a>
                 </p> -->
               </div>
             </div>
-            <div class="col-sm-6 col-md-3">
-              <div class="thumbnail">
-                <img class="books" src="images/JavaScript权威指南.jpg" alt="通用的占位符缩略图">
+            <div class="col-sm-6 col-md-3 wrap-book">
+              <div class="books">
+                <img class="books-img" src="images/JavaScript权威指南.jpg" alt="通用的占位符缩略图">
               </div>
               <div class="caption">
-                <h3>JavaScripts权威指南</h3>
-                <!-- <p></p>
-                <p>
-                  <a href="#" class="btn btn-default" role="button">
-                   按钮
-                  </a>
-                </p> -->
+                <h3>JavaScript权威指南</h3>
+                <p class="books-detail">《锋利的jQuery(第2版)》循序渐进地对jQuery的各种函数和方法调用进行了介绍，包括jQuery的选择器、</p>
               </div>
             </div>
+            <div class="col-sm-6 col-md-3 wrap-book">
+              <div class="books">
+                <img class="books-img" src="images/图解CSS3.jpg" alt="通用的占位符缩略图">
+              </div>
+              <div class="caption">
+                <h3>图解CSS3：核心技术与案例实战</h3>
+                <p class="books-detail">资深Web前端专家历时2载的经验与心血之作，旨在根据最新CSS3规范撰写最权威的CSS3学习资料和备查手册。
+                </p>
+              </div>
+            </div>
+            
           </div>
       </section>
       <!-- end book-->
