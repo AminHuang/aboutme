@@ -4,10 +4,19 @@ body {
   text-align: center; 
   font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
   font-size: 1.1em;
+
 }
 
 p {
   font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
+}
+
+section:nth-of-type(even) {
+  background-color: #eee;
+}
+
+section {
+  padding-top: 50px;
 }
 
 strong {
@@ -61,10 +70,6 @@ strong {
   margin-right: 5px;
   font-size: 81px;
   content: "\f032";
-}
-
-.experience {
-  background-color: #eee;
 }
 
 .time {
@@ -208,7 +213,7 @@ strong {
 
 .caption {
   word-wrap:break-word;
-  
+
 
 }
 
@@ -217,8 +222,5 @@ strong {
   text-align: left;
   text-indent: 1em;
   font-size: 15px;
-  /*overflow: scroll;*/
-  /*visibility: hidden;*/
-  /*display: none;*/
 }
 
